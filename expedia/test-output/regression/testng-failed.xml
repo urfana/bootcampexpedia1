@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]" guice-stage="DEVELOPMENT">
+  <parameter name="last name" value="Smith"/>
+  <parameter name="first name" value="John"/>
+  <parameter name="origin" value="iad"/>
+  <parameter name="middle name" value="b"/>
+  <parameter name="destination" value="jfk"/>
+  <parameter name="url" value="https://www.expedia.com"/>
+  <test thread-count="5" name="fbhome_restart browser(failed)">
+    <classes>
+      <class name="bootcampe.expedia.expedia1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- bootcampe.expedia.expedia1 -->
+    </classes>
+  </test> <!-- fbhome_restart browser(failed) -->
+</suite> <!-- Failed suite [regression] -->

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+	
+<parameter name="url" value="https://www.expedia.com"></parameter>
+<parameter name="origin" value="iad"></parameter>
+<parameter name="destination" value="jfk"></parameter>
+<parameter name="departdate" value="27"></parameter>
+<parameter name="arrivaldate" value="29"></parameter>
+
+<test name="fbhome_restart browser">
+<classes>
+<class name="bootcampe.expedia.expedia1"></class>
+</classes>
+</test>
+</suite>
